@@ -1,0 +1,31 @@
+@keyframes heart{
+	0%{
+		transform: scaleX(1.1);
+	}
+	25%{
+		transform: scaleX(1);
+	}
+	50%{
+		transform: scaleX(1.1);
+	}
+	75%{
+		transform: scaleX(1);
+	}
+	100%{
+		transform: scaleX(1.1);	}
+}
+
+div{
+	margin: 200px;
+	text-align: center;
+}
+
+i{
+	font-size: 200px;
+	text-align: center;
+	color: #FB7E6E;
+	animation-name: heart;
+	animation-delay: 1s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
