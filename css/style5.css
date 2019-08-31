@@ -3,6 +3,11 @@
 	src: url(../fonts/Asap-Medium.ttf);
 }
 
+@keyframes stopwatch{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+
 div{
 	text-align: center;
 	margin: 200px;
@@ -12,4 +17,11 @@ div{
 
 i{
 	font-size: 200px;
+	animation: stopwatch 2s infinite;
+	animation-timing-function: ease-in;
+
+}
+
+i:hover{
+	animation: paused;
 }
