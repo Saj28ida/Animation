@@ -1,0 +1,71 @@
+@keyframes move1{
+	0%{
+		transform: translate(0,-40px); 
+	}
+	10%{
+		transform: translate(0,300px); 
+	}
+	40%{
+		transform: translate(0,270px); 
+	}
+	60%{
+		transform: translate(0,300px); 
+	}
+	90%{
+		transform: translate(0,290px); 
+	}
+	100%{
+		transform: translate(0,-40px); 
+	}
+}
+
+
+section{
+	display: flex;
+	justify-content: center;
+}
+
+div{
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	margin: -40px 10px;
+}
+
+.circle1{
+	background-color: #ACEDEE;
+	animation: move1 3s infinite;
+	animation-timing-function: ease;
+	
+}
+
+.circle2{
+	background-color: #FC7F6F;
+	animation: move1 3s infinite;
+	animation-timing-function: ease-in;
+	
+}
+
+.circle3{
+	background-color: #84CDFC;
+	animation: move1 3s infinite;
+	animation-timing-function: ease-out;
+}
+
+.circle4{
+	background-color: #F0E786;
+	animation: move1 3s infinite;
+	animation-timing-function: linear;
+}
+
+.circle5{
+	background-color: #3FD1CD;
+	animation: move1 3s infinite;
+	animation-timing-function: ease-in-out;
+}
+
+.circle6{
+	background-color: #D9BED9;
+	animation: move1 3s infinite;
+	animation-timing-function: ease;
+}
