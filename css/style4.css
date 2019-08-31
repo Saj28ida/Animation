@@ -4,14 +4,11 @@
 }
 
 @keyframes stay{
-	 0%{
+	 from{
 	 	transform: scale(1,1);
 	 }
-	 50%{
-	 	transform: scale(1.5,1.5);
-	 }
-	 100%{
-	 	transform: scale(1.5,1.5);
+	 to{
+	 	transform: scale(1.4,1.4);
 	 }
 }
 
@@ -20,7 +17,7 @@
 	 	transform: scale(1,1);
 	 }
 	 100%{
-	 	transform: scale(1.5,1.5);
+	 	transform: scale(1.4,1.4);
 	 }
 }
 
@@ -33,16 +30,16 @@ h2{
 	color: #D3D3D3;
 	font-family: Asap-Regular;
 	margin-top: 100px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	font-weight: 100;
 }
 
 div{
 	color: #fff;
 	border-radius: 5px;
-	width: 400px;
-	height: 60px;
-	line-height: 60px;
+	width: 450px;
+	height: 70px;
+	line-height: 70px;
 	font-size: 25px;
 	font-family: Asap-Regular;
 	display: inline-block;
@@ -51,12 +48,19 @@ div{
 
 .div1{
 	background-color: #00CED2;
-	animation: stay 5s infinite;
 }
 
 .div2{
 	background-color: #FF623F;
+}
+
+
+section:hover .div1{
+	animation: stay 5s infinite;
+	animation-fill-mode: backwards;
+}
+
+
+section:hover .div2{
 	animation: back 3s infinite;
-
-
 }
