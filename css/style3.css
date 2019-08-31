@@ -1,18 +1,19 @@
 @keyframes heart{
 	0%{
-		transform: scaleX(1.1);
+		font-size: 250px;
 	}
 	25%{
-		transform: scaleX(1);
+		font-size: 200px;
 	}
 	50%{
-		transform: scaleX(1.1);
+		font-size: 250px;
 	}
 	75%{
-		transform: scaleX(1);
+		font-size: 200px;
 	}
 	100%{
-		transform: scaleX(1.1);	}
+		font-size: 250px;
+	}
 }
 
 div{

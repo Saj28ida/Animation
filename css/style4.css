@@ -1,0 +1,65 @@
+@font-face{
+	font-family: Asap-Regular;
+	src: url(../fonts/Asap-Regular.ttf);
+}
+
+@keyframes stay{
+	 0%{
+	 	transform: scale(1,1);
+	 }
+	 50%{
+	 	transform: scale(1.5,1.5);
+	 }
+	 100%{
+	 	transform: scale(1.5,1.5);
+	 }
+}
+
+@keyframes back{
+	 0%{
+	 	transform: scale(1,1);
+	 }
+	 50%{
+	 	transform: scale(1.5,1.5);
+	 }
+	 100%{
+	 	transform: scale(1.5,1.5);
+	 }
+}
+
+
+section{
+	text-align: center;
+}
+
+h2{
+	color: #D3D3D3;
+	font-family: Asap-Regular;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-weight: 100;
+}
+
+div{
+	color: #fff;
+	border-radius: 5px;
+	width: 400px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 25px;
+	font-family: Asap-Regular;
+	display: inline-block;
+	font-weight: 400px;
+}
+
+.div1{
+	background-color: #00CED2;
+	animation: stay 3s infinite;
+}
+
+.div2{
+	background-color: #FF623F;
+	animation: stay 3s infinite;
+
+
+}
