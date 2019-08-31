@@ -1,0 +1,15 @@
+@font-face{
+	font-family: Asap-Medium;
+	src: url(../fonts/Asap-Medium.ttf);
+}
+
+div{
+	text-align: center;
+	margin: 200px;
+	font-family: Asap-Medium;
+	color: #00CDD1;
+}
+
+i{
+	font-size: 200px;
+}

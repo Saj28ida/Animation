@@ -19,9 +19,6 @@
 	 0%{
 	 	transform: scale(1,1);
 	 }
-	 50%{
-	 	transform: scale(1.5,1.5);
-	 }
 	 100%{
 	 	transform: scale(1.5,1.5);
 	 }
@@ -49,17 +46,17 @@ div{
 	font-size: 25px;
 	font-family: Asap-Regular;
 	display: inline-block;
-	font-weight: 400px;
+	font-weight: 100px;
 }
 
 .div1{
 	background-color: #00CED2;
-	animation: stay 3s infinite;
+	animation: stay 5s infinite;
 }
 
 .div2{
 	background-color: #FF623F;
-	animation: stay 3s infinite;
+	animation: back 3s infinite;
 
 
 }
