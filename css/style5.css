@@ -4,24 +4,42 @@
 }
 
 @keyframes stopwatch{
-	from{transform: rotate(0deg);}
-	to{transform: rotate(360deg);}
+	100%{transform: rotate(360deg);}
 }
 
+body{
+	text-align: center;	
+	margin-top: 200px;
+}
 div{
-	text-align: center;
-	margin: 200px;
-	font-family: Asap-Medium;
 	color: #00CDD1;
+	display: inline-block;
+	font-family: Asap-Medium;
 }
 
 i{
 	font-size: 200px;
-	animation: stopwatch 2s infinite;
-	animation-timing-function: ease-in;
-	animation-play-state: running;
 }
 
-i:hover{
+.stopwatch:hover .line{
 	animation-play-state: paused;
+}
+
+.stopwatch{
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+.line{
+	background-color: #00CDD1;
+	width: 10px;
+	height: 60px;
+	position: absolute;
+	border-radius: 10px;
+	top: 40px;
+	left: 90px;
+	animation: stopwatch 2s infinite;
+	animation-timing-function: ease-in-out;
+	animation-play-state: running;
+	transform-origin: bottom;
 }
