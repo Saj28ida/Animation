@@ -1,0 +1,42 @@
+@font-face{
+	font-family: Asap-Medium;
+	src: url(../fonts/Asap-Medium.ttf);
+}
+
+@keyframes load{
+	from{
+		transform: scaleX(1);
+	}
+	to{
+		transform: scaleX(50);
+	}
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	margin-top: 300px;
+}
+
+h1{
+	font-family: Asap-Medium;
+	color: violet;
+	text-align: center;
+}
+
+.bar{
+	width: 500px; 
+	height: 50px;
+	border:  5px violet solid;
+	border-radius: 10px; 
+}
+
+.status{
+	width: 10px;
+	height: 50px;
+	background-color: #0ff;
+	animation: load 6s infinite;
+	transform-origin: left;
+	animation-timing-function: ease-in-out;
+}
+
