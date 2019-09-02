@@ -31,13 +31,14 @@ i{
 	position: relative;
 }
 .line{
+	text-align: center;
 	background-color: #00CDD1;
 	width: 10px;
 	height: 60px;
 	position: absolute;
 	border-radius: 10px;
 	top: 40px;
-	left: 90px;
+	left: 95px;
 	animation: stopwatch 2s infinite;
 	animation-timing-function: ease-in-out;
 	animation-play-state: running;

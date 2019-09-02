@@ -55,6 +55,6 @@ section:hover .div1{
 
 section:hover .div2{
 	animation: max 3s;
-	animation-fill-mode: none;
+	animation-fill-mode: backwards;
 	animation-timing-function: ease-in-out;
 }
