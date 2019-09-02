@@ -20,14 +20,14 @@
 
 h1{
 	font-family: Asap-Medium;
-	color: violet;
+	color: blue;
 	text-align: center;
 }
 
 .bar{
 	width: 500px; 
 	height: 50px;
-	border:  5px violet solid;
+	border:  5px blue solid;
 	border-radius: 10px; 
 }
 

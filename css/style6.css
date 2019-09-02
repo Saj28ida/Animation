@@ -23,23 +23,30 @@ body{
 
 
 .thumb{
-	width: 100px;
+	width: 80px;
 	height: 50px;
 	border-left: 20px solid #f0f;
 	background-color: #fff2cc;
 	border-top-left-radius: 50px;
 	border-bottom-left-radius: 50px;
-	border-top-right-radius: 20px;
+	border-top-right-radius: 30px;
 	border-bottom-right-radius: 20px;
 }
 
+
+.fingers{
+	display: flex;
+	animation-timing-function: ease-in-out;
+}
+
+
 .finger1{
 	width: 50px;
-	height: 130px;
+	height: 150px;
 	border-bottom: 20px solid #f0f;
 	background-color: #fff2cc;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
 	border-bottom-left-radius: 50px;
 	border-bottom-right-radius: 50px;
 	animation: move .2s;
@@ -47,11 +54,11 @@ body{
 
 .finger2{
 	width: 50px;
-	height: 150px;
+	height: 200px;
 	border-bottom: 20px solid #f0f;
 	background-color: #fff2cc;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
 	border-bottom-left-radius: 50px;
 	border-bottom-right-radius: 50px;
 	animation: move .2s .2s;
@@ -61,11 +68,11 @@ body{
 
 .finger3{
 	width: 50px;
-	height: 140px;
+	height: 160px;
 	border-bottom: 20px solid #f0f;
 	background-color: #fff2cc;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
 	border-bottom-left-radius: 50px;
 	border-bottom-right-radius: 50px;
 	animation: move .2s .4s;
@@ -76,14 +83,9 @@ body{
 	height: 100px;
 	border-bottom: 20px solid #f0f;
 	background-color: #fff2cc;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
 	border-bottom-left-radius: 50px;
 	border-bottom-right-radius: 50px;
 	animation: move .2s .6s;
-}
-
-.fingers{
-	display: flex;
-	animation-timing-function: ease-in-out;
 }
